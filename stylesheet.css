@@ -1,34 +1,208 @@
 :root {
-        --background: #FEFAE0;
+        --background:white;
         --darkgreen: #283618;
       }
 
+html {
+    scroll-behavior: smooth;
+  
+}
+      
 body {
     background-color: var(--background);
     font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.1rem;
 }
+
+/* DESKTOP LAYOUT */
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  #header {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--darkgreen);
+    padding: 1.6rem 10%;
+    align-items: center;
+  }
+
+  /* Navigation Bar */
+#nav-bar ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+  }
+  .nav-link {
+    margin-left: 1rem;
+    padding: 1.6rem 0.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    padding: 0.7rem 0.5rem;
+    border-bottom: 0.05rem solid #FFF;
+    transition: .4s;
+  }
+ /* About */
+#aboutUs {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.6rem 10%;
+    align-items: right; 
+}
+
+#aboutUs h1 {
+    padding-top: 5rem;
+    padding-right: 20rem;
+    letter-spacing: 0.2em;
+}
+
+#aboutUs button {
+  margin: 10px auto;
+  padding: 15px 5px;
+  width: 35rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: #FFF;
+  background-color: var(--darkgreen);
+  border: 2px solid var(--background);
+}
+
+#aboutUs button:hover {
+    background-color: #FFF;
+    color: var(--darkgreen);
+    border: 2px solid var(--darkgreen);
+    transition: .5s;
+  }
 
 #aboutUs img {
     width: 300px;
     height: 400px;
 }
 
-
-header h1 p {
-    text-align: center;
-    color: var(--darkgreen);
-  }
-  
-nav ul {
-    color: var(--darkgreen);
-    list-style: none;
+ /* benefits */
+#benefits {
+    margin-top: 5rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-  }
-
-  #pricing img {
-    width: 300px;
-    height: 400px;
+    padding: 1.6rem 10%;
+    align-items: center; 
 }
 
-/* Desktop design */
+#benefits img {
+    width: 100px;
+    height: 100px; 
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+ /* Review */
+
+ /* Pricing */
+#pricing {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.6rem 10%;
+    align-items: right; 
+}
+
+#pricing img {
+    width: 300px;
+    height: 400px;
+    padding-left: 5%;
+}
+
+
+/* TABLET LAYOUT */
+
+@media only screen and (max-width: 1200px) {
+ /* Header */
+ #header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Navigation Bar */
+  #nav-bar ul {
+    padding-left: 0;
+    min-width: 290px;
+  }
+
+  #aboutUs {
+    background-color: #283618;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 10%;
+  }
+
+  #aboutUs h1 {
+    padding-top: 0rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    letter-spacing: 0.2em;
+  }
+
+  #aboutUs button {
+    margin: 10px auto;
+    width: 20rem;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* benefits */
+#benefits {
+    background-color: #283618;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 30%;
+  }
+
+   /* Review */
+
+ /* Pricing */
+ #pricing {
+    background-color: #283618;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 30%;
+  }
+
+/* MOBILE LAYOUT */
+@media only screen and (max-width: 665px) {
+
+    .aboutUs h1 {
+        background-color: aquamarine;
+        font-size: 0.1em;
+        padding-right: 3px;
+        margin-bottom: 40px;
+      }
+
+}

@@ -8,8 +8,9 @@ Objective: Build a page that is functionally similar to this: https://product-la
 Source of the project can be found in freeCodeCamp curriculum.
 
 Requirements:
+
 Page should include:
-Header and navigation
+Navigation buttons that take user to the corresponding section of the landing page
 Product video
 A form element with required email input and submit button
 Navigation bar should always be at the top of the viewport

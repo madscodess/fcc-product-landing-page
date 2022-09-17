@@ -16,3 +16,8 @@ Navigation bar should always be at the top of the viewport
 Include at least one media query
 Should utilise CSS flexbox at least once
 
+
+📝 The project was started in the freecodecamp's coding environment, I move it across to vs code and made some improvements:
+Made better commenting and code readability.
+Added fontawesome icons.
+Responsiveness - mobile & desktop

@@ -2,9 +2,10 @@
         --background: #FEFAE0;
         --darkgreen: #283618;
       }
-      
+
 body {
     background-color: var(--background);
+    font-family: 'Barlow', sans-serif;
 }
 
 #aboutUs img {

@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     letter-spacing: 0.1rem;
+    color: var(--darkgreen);
 }
 
 /* DESKTOP LAYOUT */
@@ -63,8 +64,6 @@ header {
     flex-direction: row;
     justify-content: space-around;
     padding: 1.6rem 15%;
- 
-
 }
 
 #aboutUs h1 {
@@ -105,6 +104,7 @@ header {
  /* benefits */
 #benefits {
     margin-top: 6rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,6 +122,25 @@ header {
 }
 
  /* Review */
+#review {
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 10%;
+    align-items: center;
+    font-size: 1.3em;
+    color: white;
+    background-color: #283618;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#review p {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
  /* Pricing */
 #pricing {
@@ -129,14 +148,30 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.6rem 10%;
+    padding: 10px 10%;
     align-items: right; 
 }
 
 #pricing img {
     width: 300px;
     height: 400px;
-    padding-left: 5%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pricing-book {
+    font-size: 1.2em;
+}
+
+#bespoke {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    text-align: center;
 }
 
 
@@ -208,6 +243,13 @@ header {
   }
 
    /* Review */
+#review quote {
+    font-size: 1em;
+}
+
+#review p {
+    font-size: 0.5em;
+}
 
  /* Pricing */
  #pricing {
@@ -254,6 +296,7 @@ body {
 
       #benefits {
         margin-top: 7%;
+        margin-bottom: 2%;
         font-size: 1.1em;
       }
 
@@ -261,5 +304,18 @@ body {
         width: 80px;
         height: 80px;
       }
+
+         /* Review */
+#review {
+    height: 150px;
+    
+}
+#review quote {
+    font-size: 1.5rem;
+}
+
+#review p {
+    font-size: 1rem;
+}
 
 }

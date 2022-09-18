@@ -63,6 +63,7 @@ header {
     flex-direction: row;
     justify-content: space-around;
     padding: 1.6rem 15%;
+ 
 
 }
 
@@ -103,19 +104,21 @@ header {
 
  /* benefits */
 #benefits {
-    margin-top: 5rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.6rem 10%;
-    align-items: center; 
+    padding: 1.5rem 10%;
+    padding-left: 3%;
+    align-items: center;
+    font-size: 1.3em;
 }
 
 #benefits img {
     width: 100px;
     height: 100px; 
-    padding-left: 5%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
  /* Review */
@@ -137,7 +140,7 @@ header {
 }
 
 
-/* TABLET LAYOUT */
+/************* TABLET LAYOUT ****************/
 
 @media only screen and (max-width: 1200px) {
 
@@ -159,17 +162,17 @@ header {
 
   /* About Us */
   #aboutUs {
-  
     font-size: 0.8em;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 1rem 10%;
   }
 
   #aboutUs h1 {
-    padding-top: 0rem;
+    padding-top: 3rem;
     padding-right: 5rem;
     padding-left: 5rem;
     letter-spacing: 0.2em;
@@ -187,11 +190,21 @@ header {
 
 /* benefits */
 #benefits {
-    font-size: 1.2em;
+    font-size: 1.3em;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 1rem 30%;
+    padding-bottom: 2;
+    text-align: center;
+  }
+
+  #benefits img {
+    padding-bottom: 2%;
+  }
+
+  #benefits p {
+    padding-bottom: 2%;
   }
 
    /* Review */
@@ -215,18 +228,38 @@ body {
 
 /* aboutUs */
 #aboutUs {
-    padding-right: 7rem;
+   /** padding-right: 7rem; */
 
 }
     #aboutUs button {
         font-size: 1.2rem;
         margin: 10px auto;
+        padding: 8px;
         width: 20rem; 
     }
 
     #aboutUs h1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         font-size: 1.5rem;
-        width: 20rem;
+        text-align: left;
+      }
+
+      #aboutUs img {
+        width: 300px;
+        height: 400px;
+      }
+
+      /*Benefits*/
+
+      #benefits {
+        margin-top: 7%;
+        font-size: 1.1em;
+      }
+
+      #benefits img {
+        width: 80px;
+        height: 80px;
       }
 
 }

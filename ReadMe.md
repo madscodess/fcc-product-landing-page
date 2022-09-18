@@ -22,3 +22,4 @@ Should utilise CSS flexbox at least once
 Made better commenting and code readability.
 Added fontawesome icons.
 Responsiveness - mobile & desktop
+Create a link to act a button, this is because a button as a link is bad practice : article [https://www.freecodecamp.org/news/html-button-link-code-examples-how-to-make-html-hyperlinks-using-the-href-attribute-on-tags/] 

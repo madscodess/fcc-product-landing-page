@@ -62,20 +62,20 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1.6rem 10%;
-    align-items: right; 
+    padding: 1.6rem 15%;
+
 }
 
 #aboutUs h1 {
     padding-top: 5rem;
-    padding-right: 20rem;
+    padding-right: 12rem;
     letter-spacing: 0.2em;
 }
 
 #aboutUs button {
   margin: 10px auto;
   padding: 15px 5px;
-  width: 38rem;
+  width: 35rem;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
@@ -211,9 +211,22 @@ header {
 body {
     background-color: beige;
 }
+
+
+/* aboutUs */
+#aboutUs {
+    padding-right: 7rem;
+
+}
     #aboutUs button {
+        font-size: 1.2rem;
         margin: 10px auto;
         width: 20rem; 
     }
+
+    #aboutUs h1 {
+        font-size: 1.5rem;
+        width: 20rem;
+      }
 
 }

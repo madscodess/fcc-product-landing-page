@@ -55,12 +55,13 @@ header {
     border-bottom: 0.05rem solid #FFF;
     transition: .4s;
   }
+  
  /* About */
 #aboutUs {
     margin-top: 10rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1.6rem 10%;
     align-items: right; 
 }
@@ -74,12 +75,13 @@ header {
 #aboutUs button {
   margin: 10px auto;
   padding: 15px 5px;
-  width: 35rem;
+  width: 38rem;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 3px;
+  border-radius: 8px;
   color: #FFF;
   background-color: var(--darkgreen);
   border: 2px solid var(--background);
@@ -93,8 +95,10 @@ header {
   }
 
 #aboutUs img {
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
  /* benefits */
@@ -136,6 +140,10 @@ header {
 /* TABLET LAYOUT */
 
 @media only screen and (max-width: 1200px) {
+
+    body{
+        background-color: aqua;
+    }
  /* Header */
  #header {
     display: flex;
@@ -149,8 +157,9 @@ header {
     min-width: 290px;
   }
 
+  /* About Us */
   #aboutUs {
-    background-color: #283618;
+  
     font-size: 0.8em;
     display: flex;
     justify-content: center;
@@ -168,14 +177,16 @@ header {
 
   #aboutUs button {
     margin: 10px auto;
-    width: 20rem;
+    width: 30rem;
     font-size: 0.9em;
     font-weight: 400;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* benefits */
 #benefits {
-    background-color: #283618;
     font-size: 1.2em;
     display: flex;
     justify-content: center;
@@ -187,22 +198,22 @@ header {
 
  /* Pricing */
  #pricing {
-    background-color: #283618;
     font-size: 1.2em;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 1rem 30%;
   }
+}
 
 /* MOBILE LAYOUT */
 @media only screen and (max-width: 665px) {
-
-    .aboutUs h1 {
-        background-color: aquamarine;
-        font-size: 0.1em;
-        padding-right: 3px;
-        margin-bottom: 40px;
-      }
+body {
+    background-color: beige;
+}
+    #aboutUs button {
+        margin: 10px auto;
+        width: 20rem; 
+    }
 
 }

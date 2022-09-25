@@ -72,6 +72,7 @@ header {
     letter-spacing: 0.1em;
 }
 
+/* link(button) */
 #aboutUs a {
   padding: 20px 13px;
   display: inline-block;
@@ -136,18 +137,21 @@ header {
 }
 
 #review p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
  /* Pricing */
 #pricing {
+    font-size: 1em;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 10%;
     align-items: right; 
+    
 }
 
 #pricing img {
@@ -161,8 +165,10 @@ header {
     font-size: 1.2em;
 }
 
+/* link(button) */
 .pricing-book a {
-  padding: 15px 20px;
+  font-size: 1em;
+  padding: 10px 20px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -181,7 +187,7 @@ header {
   transition: .3s;
 }
 
- /* Bespoke */
+ /* Bespoke & Video */
  
 #bespoke {
     display: flex;

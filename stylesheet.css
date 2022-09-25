@@ -83,7 +83,7 @@ header {
   letter-spacing: 2px;
   border-radius: 8px;
   color: var(--darkgreen);
-    border: 2px solid var(--darkgreen);
+  border: 2px solid var(--darkgreen);
 }
 
 #aboutUs a:hover {
@@ -187,30 +187,53 @@ header {
   transition: .3s;
 }
 
- /* Bespoke & Video */
- 
-#bespoke {
+ /* Video */
+
+#video {
+  background-color: #283618;
+  display: block;
+  margin: auto;
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+  max-width: 560px;
+  min-height: 315px;
+  border: 2px solid #283618;
+}
+
+   /* Footer */
+   footer {
+    background-color: var(--darkgreen);
+    color: var(--background);
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 0.9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 400px;
-    background-color: #FEFAE0;
-    border-radius: 10%;
     text-align: center;
-}
+   }
+ 
+  #credit {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+   }
 
-   /* Credit */
+  footer a {
+  color: var(--background);
+   text-decoration: none; 
+   margin-top: 1rem;
+   
+   
+   }
 
 
 /************* TABLET LAYOUT ****************/
 
 @media only screen and (max-width: 1200px) {
 
-    body{
-        background-color: aqua;
-    }
  /* Header */
  #header {
     display: flex;
@@ -281,42 +304,51 @@ header {
 }
 
  /* Pricing */
+
+
+ /* Pricing */
+
+
+
+
+
+
  #pricing  {
-    font-size: 1.3em;
+    font-size: 1.1em;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     padding: 1rem 20%;
     padding-bottom: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
     text-align: center;
   }
-
-  .pricing-book { 
-    margin-bottom: 30px;
+  
+  .pricing-book  {
+    margin-bottom: 4rem;
+    text-align: left;
+   
   }
 
- /* Bespoke */
-  #bespoke {
-    width: auto;
-  }
+  
 
-   /* Credit */
+  
+
+ /* Video - no css needed here */
+ 
+
+   /* Footer - no css needed here */
 
 }
 
 /* MOBILE LAYOUT */
 @media only screen and (max-width: 665px) {
-body {
-    background-color: beige;
-}
-
-
 /* aboutUs */
     #aboutUs a {
         font-size: 1.2rem;
-        margin: 10px auto;
-        padding: 8px;
+        margin: 1rem auto;
+        padding: 0.8rem;
         width: 20rem; 
     }
 
@@ -366,24 +398,34 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 1rem 20%;
-  padding-bottom: 5px;
-  margin-bottom: 40px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 4rem;
   text-align: center;
-}
+ }
 
   #pricing img {
     width: 280px;
     height: 380px;
   }
+
+  .pricing-book {
+    text-align: left;
+  }
   
   .pricing-book a { 
     font-size: 0.8em;
     padding: 10px 10px;
+    text-align: left;
   }
 
-/* Bespoke */
+/* Video */
+#video {
+  width: 95%;
+  height: 100%;
+  border: 2px solid #283618;
+}
 
+/* Footer - no css needed here */
 
-/* Credit */
 
 }

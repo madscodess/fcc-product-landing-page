@@ -7,6 +7,8 @@ Objective: Build a page that is functionally similar to this: https://product-la
 
 Source of the project can be found in freeCodeCamp curriculum.
 
+Live preview of my page is [here](https://madscodess.github.io/fcc-product-landing-page/).
+
 Requirements:
 
 Page should include:

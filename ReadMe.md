@@ -12,12 +12,12 @@ Live preview of my page is [here](https://madscodess.github.io/fcc-product-landi
 Requirements:
 
 Page should include:
-Navigation buttons that take user to the corresponding section of the landing page
-Product video
-A form element with required email input and submit button
-Navigation bar should always be at the top of the viewport
-Include at least one media query
-Should utilise CSS flexbox at least once
+- Navigation buttons that take user to the corresponding section of the landing page
+- Product video
+- A form element with required email input and submit button
+- Navigation bar should always be at the top of the viewport
+- Include at least one media query
+- Should utilise CSS flexbox at least once
 
 
 📝 The project was started in the freecodecamp's coding environment with the items in list above completed and no css other than very minimal flexbox used. 

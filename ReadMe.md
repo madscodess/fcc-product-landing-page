@@ -17,7 +17,7 @@ Page should include:
 - A form element with required email input and submit button
 - Navigation bar should always be at the top of the viewport
 - Include at least one media query
-- Should utilise CSS flexbox at least once
+- Should utilize CSS flexbox at least once
 
 
 📝 The project was started in the freecodecamp's coding environment with the items in list above completed and no css other than very minimal flexbox used. 
